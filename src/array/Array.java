@@ -1,3 +1,5 @@
+package array;
+
 import java.util.Arrays;
 
 public class Array {
@@ -12,12 +14,12 @@ public class Array {
         array.printAllElement("All element after adding ::", arr);
         System.out.println("--------------------------------------");
 
-        //Search element from Array
+        //Search element from array.Array
         int index = array.search(arr, 7);
         System.out.println("Element found at index: " + index);
         System.out.println("--------------------------------------");
 
-        //Delete element from Array
+        //Delete element from array.Array
         array.printAllElement("All element before removing ::", arr);
         arr = array.deleteElement(arr, 1);
         array.printAllElement("All element after removing ::", arr);
